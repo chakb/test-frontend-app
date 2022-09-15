@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 2%;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 50%;
+  min-width: max-content;
+}
+
+.name-info-container {
+  flex-grow: 1;
+  flex-basis: 50%;
+  min-width: max-content;
+}
+
+button {
+  background-color: #8c20d9;
+  border-radius: 5px;
+  border-style: hidden;
+  color: white;
+  padding: 12px 0px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.name {
+  font-size: x-large;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.gender {
+  font-style: italic;
+}
+
+.flag {
+  width: 40px;
+  margin: 5px 2px;
+}
